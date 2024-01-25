@@ -1,0 +1,127 @@
+.programs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--color-footer); /* Replace with the actual footer background color */
+  }
+
+  p {
+    color: var(--color-text);
+  }
+
+  .programs-title {
+    font-family: var(--font-family);
+    font-size: 50px;
+    font-weight: 800;
+    position: relative;
+  }
+
+  
+  .programs-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    padding: 2rem;
+  }
+  
+  .programs-subtitle:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px; /* Height of the line */
+    background-color: white; /* Color of the line */
+    margin-top: 20px; /* Space above the line */
+  }
+  
+  .program-item {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    text-align: left;
+  }
+
+  .program-item div {
+    text-align: center; /* Center the content */
+  }
+  
+  .program-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .program-item h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+  }
+  
+  .program-item p {
+    font-size: 1.2rem;
+    font-family: var(--font-family);
+  }
+  
+  .program-item img {
+    width: 300px; /* Adjust as needed */
+    height: auto;
+    margin: 15px;
+  }
+  
+  .program-item button {
+    background-color: #007bff; /* Example button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .program-item button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+
+  .programs-title, .program-item h3 {
+    position: relative; /* Needed for positioning the pseudo-element */
+    padding-top: 20px; /* Add space for the line */
+  }
+  
+
+
+/* Existing styles... */
+
+@media screen and (max-width: 768px) {
+  .program-item {
+    flex-direction: column; /* Stack elements vertically for all items */
+    text-align: center; /* Center-align text */
+    align-items: center; /* Center-align items */
+  }
+
+  .program-item img {
+    width: 100%; /* Adjust the width to fit the container */
+    margin-top: 15px; /* Space above the image */
+  }
+
+  /* Ensure the title, text, and button are centered */
+  .program-item h3,
+  .program-item p,
+  .program-item button {
+    text-align: center;
+  }
+
+  /* Remove specific styles for even items */
+  .program-item:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .program-item:not(:last-child):after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px; /* Height of the line */
+    background-color: white; /* Color of the line */
+    margin-top: 15px; /* Space above the line */
+  }
+}

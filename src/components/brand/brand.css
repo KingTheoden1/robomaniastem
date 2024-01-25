@@ -1,0 +1,50 @@
+.robomania__brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    background-color: white;
+  }
+  
+  .robomania__brand-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .robomania__brand-row img {
+    width: 150px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    object-fit: contain; /* Maintain aspect ratio */
+    margin: 0.5rem;
+  }
+  
+
+.robomania__brand-title {
+    text-align: center;
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Space between title and image rows */
+    font-family: var(--font-family);
+  }
+  
+  .why-us-content h2 {
+    text-align: center;
+    font-family: var(--font-family);
+  }
+  
+  .why-us-content p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    padding: 2rem;
+  }
+
+/* Responsive Design for Larger Screens */
+@media (min-width: 768px) {
+  .robomania__brand-row img {
+    width: 250px; /* Even larger width for bigger screens */
+    height: 200px; /* Even larger height for bigger screens */
+  }
+}
