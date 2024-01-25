@@ -6,11 +6,11 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-  <p><a href="#home">Home</a></p>
+  <p><a href="/">Home</a></p>
   <p><a href="#">Coding Clubs</a></p>
   <p><a href="#">Robotics Club</a></p>
   <p><a href="#">Parent Workshop</a></p>
-  <p><a href="#">About</a></p>
+  <p><a href="/About">About</a></p>
   </>
 )
 // BEM -> Block Element Modifier
