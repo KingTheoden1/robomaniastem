@@ -21,19 +21,19 @@ const Footer = () => {
           <h4>Links</h4>
           <p>About Us</p>
           <p>Policies</p>
-          <p>Contact</p>
+          <p><a href='mailto:info@RoboManiaSTEM.com'>Contact</a></p>
         </div>
         <div className="robomania__footer-links_div">
           <h4>Company</h4>
-          <p>Careers</p>
+          <p><a href='https://stemrichment.com/jobs' target='_blank'>Jobs</a></p>
           <p>Terms & Conditions</p>
-          <p>Research</p>
+          <p><a href='https://scholar.google.com/citations?user=gGmS1REAAAAJ&hl=en' target='_blank'>Research</a></p>
         </div>
         <div className="robomania__footer-links_div">
           <h4>Get in touch</h4>
-          <p>2551 Texas Ave S, STE E1(Inside Play Oasis), College Station, TX, 77840</p>
-          <p>(979) 429-2018</p>
-          <p>info@RoboManiaSTEM.com</p>
+          <p><a href='https://www.google.com/maps?sca_esv=fe0d19291777c631&rlz=1C1VDKB_enUS953US953&sxsrf=ACQVn09pQmx-fmqhh05OWdJ_xeFXsYBWpg:1706212668971&lsig=AB86z5XJMpAMZjvBL-oRG1TUtWWB&biw=1023&bih=1024&dpr=1.25&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KQmiN_hhhEaGMV6-FjX2WNno&daddr=2551+Texas+Ave+S+Ste+E1,+College+Station,+TX+77840' target='_blank'>2551 Texas Ave S, STE E1(Inside Play Oasis), College Station, TX, 77840</a></p>
+          <p><a href='tel:9794292018'>(979) 429-2018</a></p>
+          <p><a href='mailto:info@RoboManiaSTEM.com'>info@RoboManiaSTEM.com</a></p>
         </div>
       </div>
       <div className="robomania__footer-copyright">
