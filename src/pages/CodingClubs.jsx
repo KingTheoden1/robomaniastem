@@ -5,14 +5,10 @@ const CodingClubs = () => {
     <div className='robomania__header section__padding' id='home'>
       <div className="robomania__header-content">
         <h1 className="gradient__text">Coding Clubs</h1>
-        <p>Where young minds ignite their passion for STEM through the exciting world of robotics and coding! Dive into a journey of discovery and innovation, as we offer hands-on experiences that transform curiosity into real-world skills, nurturing creativity, critical thinking, and a lifelong love for learning in the dynamic fields of science and technology.</p>
-        
-        <div className="robomania__header-content__input">
-          <button type='button'>About Us</button>
-        </div>
-
+        <p>RoboMania STEM's Coding Clubs provide a dynamic learning experience for young enthusiasts. These clubs offer a comprehensive introduction to Python programming, emphasizing interactive learning through game design and storytelling. Students develop critical computational thinking and problem-solving skills while exploring advanced concepts in graphics programming, game development, and data analysis. Each session is crafted to inspire creativity and a deep understanding of computer science, preparing students for future technological challenges.</p>
       </div>
     </div>
+    
   )
 }
 
