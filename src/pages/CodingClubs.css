@@ -1,0 +1,14 @@
+.program-section {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .text-content {
+    margin-right: 20px;
+  }
+  
+  .program-section img {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+  }
