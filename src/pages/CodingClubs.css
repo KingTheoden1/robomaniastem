@@ -1,6 +1,6 @@
 .programs {
   /* Styles for the main container */
-  background-color: white;
+  /* background-color: white;  */
 }
 
 .program-item {
@@ -25,6 +25,15 @@
 .program-item div {
   flex: 1;
   text-align: center; /* Center the text */
+}
+
+.programs-title:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px; /* Height of the line */
+  background-color: white; /* Color of the line */
+  margin-top: 20px; /* Space above the line */
 }
 
 /* Specific style for the first image (New Students) in larger screens */
