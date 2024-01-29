@@ -1,26 +1,22 @@
 h2 {
-  font-family: var(--font-family);
+    font-family: var(--font-family);
 }
 
 .new-sections-container {
-  background-color: white;
+    background-color: white;
 }
 
 .program-section {
-  display: flex;
-  align-items: center;
-  margin: 20px;
-  flex-wrap: wrap; /* Add wrap for responsiveness */
+    display: flex;
+    align-items: center;
+    margin: 20px;
 }
-
+  
 .text-content {
-  margin-right: 20px;
-  flex: 1; /* Flex grow */
+    margin-right: 20px;
 }
-
+  
 .program-section img {
-  max-width: 100%; /* Responsive width */
-  height: auto;
-  flex-shrink: 0; /* Prevent shrinking */
-  min-width: 300px; /* Minimum width */
+    width: 150px; /* Adjust as needed */
+    height: auto;
 }
