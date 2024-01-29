@@ -1,54 +1,27 @@
-h2 {
-  font-family: var(--font-family);
-}
-
-.new-sections-container {
+.programs {
+  /* Styles for the main container */
   background-color: white;
 }
 
-.program-section {
+.program-item {
   display: flex;
   align-items: center;
   margin: 20px;
-  flex-wrap: wrap;
 }
 
-.text-content {
-  flex: 1;
+.program-item.alternate {
+  flex-direction: row-reverse;
 }
 
-.program-section img {
+.program-item img {
   width: 100%;
   max-width: 400px; /* Adjust as needed */
   height: auto;
   flex-shrink: 0;
 }
 
-/* Specific styles for New Students section */
-.new-students .text-content {
-  order: 1;
+.program-item div {
+  flex: 1;
 }
 
-.new-students img {
-  order: 2;
-}
-
-/* Specific styles for Continuing Students section */
-.continuing-students .text-content {
-  order: 2;
-}
-
-.continuing-students img {
-  order: 1;
-}
-
-/* Media query for larger screens */
-@media (min-width: 768px) {
-  .program-section {
-      flex-wrap: nowrap;
-  }
-
-  .program-section img {
-      max-width: 50%; /* Adjust for larger screens */
-  }
-}
+/* Add more styling as needed */
