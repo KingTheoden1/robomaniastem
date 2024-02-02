@@ -1,0 +1,64 @@
+.codingclubs__para {
+    text-align: center;
+  }
+  
+.programs__alt {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+  .program-item {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column; /* Stack items vertically in smaller screens */
+  }
+  
+  .program-item.alternate {
+    flex-direction: column-reverse; /* Reverse order for alternate items */
+  }
+  
+  .program-item img {
+    width: 100%;
+    max-width: 400px; /* Default max-width for images */
+    height: auto;
+    flex-shrink: 0;
+    margin-bottom: 20px; /* Add spacing between image and text */
+  }
+  
+  .program-item div {
+    flex: 1;
+    text-align: center; /* Center the text */
+  }
+  
+  .programs-title:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px; /* Height of the line */
+    background-color: white; /* Color of the line */
+    margin-top: 20px; /* Space above the line */
+  }
+  
+  /* Specific style for the first image (New Students) in larger screens */
+  @media (min-width: 768px) {
+    .program-item:first-child img {
+      max-width: 300px; /* Smaller max-width for the first image */
+    }
+  
+    .program-item {
+        flex-direction: row; /* Side by side on larger screens */
+    }
+  
+    .program-item.alternate {
+        flex-direction: row-reverse; /* Reverse order for alternate items */
+    }
+  
+    .program-item img {
+        margin-bottom: 0; /* Remove bottom margin */
+    }
+  }
+  
