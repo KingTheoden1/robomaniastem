@@ -17,7 +17,7 @@
     max-height: 100vh; /* prevent the image from being too tall on the page */
 
     /* Increase the size slightly */
-    width: 80%; /* Example: previously it might have been 50% */
+    width: 80%; /* If the image is too big, drop it to 70% or 60%*/
 }
 
 
