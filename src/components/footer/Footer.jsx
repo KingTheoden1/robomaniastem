@@ -1,6 +1,8 @@
 import React from 'react';
 import './footer.css';
 import robomania from '../../assets/robomania.png'
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
   return (
@@ -19,7 +21,7 @@ const Footer = () => {
         </div>
         <div className="robomania__footer-links_div">
           <h4>Links</h4>
-          <p>About Us</p>
+          <p><Link to="/About">About Us</Link></p>
           <p>Policies</p>
           <p><a href='mailto:info@RoboManiaSTEM.com'>Contact</a></p>
         </div>
