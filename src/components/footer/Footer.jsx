@@ -7,16 +7,11 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className='robomania__footer section__padding'>
-      {/*<div className="robomania__footer-heading">
-        <h1 className="gradient__text">Give your child an Academic Advantage!</h1>
-      </div>
-      <div className="robomania__footer-btn">
-        <p>Learn More</p>
-  </div>*/}
-
       <div className="robomania__footer-links">
         <div className="robomania__footer-links_logo">
-          <img src={robomania} alt="logo" />
+          <Link to="/">
+            <img src={robomania} alt="logo" />
+          </Link>
           <p>2551 Texas Ave S, STE E1(Inside Play Oasis), College Station, TX, 77840</p>
         </div>
         <div className="robomania__footer-links_div">
