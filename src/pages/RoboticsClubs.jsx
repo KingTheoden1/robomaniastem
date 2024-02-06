@@ -1,5 +1,5 @@
 import React from 'react';
-import './RoboticsClub.css'; // Ensure this CSS file exists and is correctly linked
+// import './RoboticsClub.css'; all css components are already in index.css file
 import RoboticsClub from './../assets/roboticsclub.gif'
 import RoboticsClub2 from './../assets/roboticsclub2.gif'
 
