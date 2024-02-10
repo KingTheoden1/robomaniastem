@@ -10,7 +10,7 @@ const Home = () => {
         <Brand />
         <Programs />
         <div className="program-image-container">
-          <img src={ParentWorkshop} alt="" />
+          <img src={ParentWorkshop} alt="Description" className="programs-image" />
         </div>
     </>
   )
