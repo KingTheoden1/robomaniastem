@@ -22,9 +22,7 @@ const SummerCamps = () => {
           <h3 className='gradient__text'>Elementary School Camps</h3>
           <p><br />Grades 3 -6</p>
           <p><br />Fun, Hands-on, Engaging, & Impactful!</p>
-          <button onClick={() => window.location.href = 'https://aabstem.com/pd/introtoopenbrick/module1/'}>Visual Software<br />Tutorial Video<br /></button>
-          <br />
-          <button onClick={() => window.location.href = 'https://1drv.ms/f/s!AhTQxUmVj3Bwg6gfrQurB0rUzBGP1A?e=g4H2dB'}>Download<br />Software<br /></button>
+          <button onClick={() => window.location.href = ''}>Learn More</button>
         </div>
         <img src={ElementaryCamp} alt="" />
       </div>
@@ -35,12 +33,10 @@ const SummerCamps = () => {
           <h3 className='gradient__text'>Middle/High School Camps</h3>
           <p><br />Grades 7 - 12</p>
           <p><br />Get your child ready for College!</p>
-          <button onClick={() => window.location.href = 'https://aabstem.com/pd/introtoopenbrick/module1/'}>C++ Software<br />Tutorial Video<br /></button>
-          <br />
-          <button onClick={() => window.location.href = 'https://1drv.ms/f/s!AhTQxUmVj3Bwg6gfrQurB0rUzBGP1A?e=g4H2dB'}>Download<br />Software<br /></button>
+          <button onClick={() => window.location.href = ''}>Learn More</button>
         </div>
       </div>
-      <p className='codingclubs__para'>LEGO® and DUPLO® are registered trademarks of the LEGO® Group of companies which does not sponsor, authorize or endorse these programs or this web site. For teaching and learning purposes, the above mentioned summer camps will be utilizing LEGO®  and LEGO® style bricks along with open-source hardware and software.<br /><br />Middle and High school camps are being held at Texas A&M University in College Station, TX. Camps are sponsored by IMSA, a recognized student organization and organized by Robo Mania STEM Learning.</p>
+      {/* <p className='codingclubs__para'>LEGO® and DUPLO® are registered trademarks of the LEGO® Group of companies which does not sponsor, authorize or endorse these programs or this web site. For teaching and learning purposes, the above mentioned summer camps will be utilizing LEGO®  and LEGO® style bricks along with open-source hardware and software.<br /><br />Middle and High school camps are being held at Texas A&M University in College Station, TX. Camps are sponsored by IMSA, a recognized student organization and organized by Robo Mania STEM Learning.</p> */}
     </div>
     </>
   );
